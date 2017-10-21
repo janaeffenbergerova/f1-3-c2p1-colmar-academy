@@ -1,0 +1,393 @@
+html {
+  font-size: 16px;
+  font-family:
+}
+
+header {
+  height: 4rem;
+  display: flex;
+  align-items: center;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  justify-content: space-between;
+  font-family: "Ranchers";
+  font-weight: bold;
+}
+
+.ic-on-campus, .ic-login, .ic-online, .mobile-small-picture {
+  display: none;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  max-height: 100%;
+  overflow: hidden;
+}
+
+.logo img {
+  height: 2rem;
+  width: auto;
+}
+
+.logo-colmar {
+  color: #020f25;
+}
+
+.logo-academy {
+  color: #0d357a;
+}
+
+ul li {
+  margin-right: 1rem;
+  display: inline;
+}
+
+a {
+  color: #0d357a;
+  margin-top: 0.5rem;
+  font-weight: bold;
+}
+
+h1, h2, h3, p{
+  font-family: "Signika Negative";
+  color: #020f25;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.main-learn, .main-start {
+  background-color: #5477b2;
+  display: flex;
+}
+
+.main-learn .picture{
+  width: 60%;
+}
+
+.picture  {
+  margin: 2rem 1.5rem;
+}
+
+.picture img {
+  width: 100%;
+}
+
+.content1 {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  justify-content: center;
+  width: 40%;
+}
+
+.content1 h1{
+  margin-bottom: 3rem;
+}
+
+
+.button-start {
+  background-color: #020f25;
+  padding: 0.5rem;
+  display: flex;
+  justify-content: center;
+  width: 90%;
+  margin-top: 3rem;
+}
+
+.button-start p{
+  color: #787f8c;
+}
+
+.main-keep {
+  display: flex;
+  flex-direction: row;
+}
+
+.information {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 2rem;
+  width: 64%;
+}
+
+.content2 {
+  display: flex;
+  flex-direction: column;
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+}
+
+.content2 p {
+  margin-top: 1.5rem;
+}
+
+.information-formation {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  padding-top: 1rem;
+  border-left: 1px solid #5477b2;
+}
+
+.small-picture {
+  padding: 1rem;
+  width: 35%;
+}
+
+.small-picture img {
+  width: 100%;
+}
+
+.text {
+  width: 65%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+}
+
+.content-little {
+  display: flex;
+  border-bottom: 1px solid #5477b2;
+}
+
+.content-little-blue {
+  display: flex;
+  background-color: #5477b2;
+}
+
+.main-start h2, .main-thesis h2 {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  margin: 0 auto;
+}
+
+.main-start {
+  flex-direction: column;
+}
+
+.formation {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-left: 4.5rem;
+  margin-right: 4.5rem;
+}
+
+.content-little2 {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 2rem;
+  margin-right: 2rem;
+  width: 30%;
+
+}
+
+.small-picture2 {
+  height: auto;
+  width: 100%;
+  overflow: hidden;
+
+}
+
+.small-picture2 img{
+  height: auto;
+  max-width: 100%;
+}
+
+.text2 {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-bottom: 1.5rem;
+  min-height: 8rem;
+}
+
+.text2 h3 {
+  padding-top: 1rem;
+}
+
+.text2 p {
+  padding-top: 0.5rem;
+}
+
+.main-thesis {
+  display: flex;
+  flex-direction: column;
+}
+
+video {
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+  margin-bottom: 1.5rem;
+  width: 95%;
+}
+
+.description {
+  padding-left: 1.5rem;
+  padding-bottom: 2rem;
+  padding-right: 1.5rem;
+}
+
+.description h3 {
+  padding-bottom: 0.5rem;
+}
+
+.thesis {
+  display: flex;
+}
+
+.thesis .information-formation, .thesis .content-little {
+  padding-top: 0;
+  border: none;
+}
+
+footer {
+  border-top: 1px solid #5477b2;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 1.5rem;
+  font-size: 0.8rem;
+}
+
+.word-spacing {
+  word-spacing: 2rem;
+}
+
+
+@media only screen and (max-width: 470px) {
+
+  .logo-colmar, .logo-academy, nav, footer .word-spacing,
+  .main-thesis .information-formation, .description,
+  .main-keep .information, .small-picture, .formation p,
+  .small-picture2
+  {
+    display: none;
+  }
+
+  .ic-on-campus, .ic-login, .ic-online {
+    display: inline;
+  }
+
+  .main-learn {
+    flex-direction: column;
+  }
+
+  .main-learn h1 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  .main-learn .picture{
+    width: 100%;
+    margin: 0;
+  }
+  .button-start {
+    margin-top: 1.5rem;
+  }
+
+  .main-learn .content1 {
+    padding: 2rem 1rem;
+    width: 95%;
+  }
+
+  .information-formation{
+    border: none;
+    width: 100%;
+  }
+
+  .content-little, .content-little-blue {
+    flex-direction: column;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border: none;
+  }
+
+  .content-little-blue {
+    background-color: white;
+    margin-bottom: 2rem;
+  }
+
+  .mobile-small-picture {
+    display: block;
+    max-width: 100%;
+  }
+
+  .mobile-small-picture img {
+    width: 100%;
+    height: auto;
+  }
+
+  .text {
+    width: 100%;
+    padding: 1rem;
+  }
+
+  .main-start {
+    background-color: white;
+    border-top: 1px solid #5477b2;
+  }
+
+  .formation{
+    flex-direction: column;
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .content-little2 {
+    width: 100%;
+    height: 2.5rem;
+  }
+
+  .text2 h3{
+    background-color: #5477b2;
+    padding-top: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 1.5rem;
+    width: 100%;
+  }
+
+.text2 {
+    align-items: center;
+}
+
+  .main-thesis {
+    padding-top: 2rem;
+    flex-direction: column;
+  }
+
+  .main-thesis h2 {
+    border-top: 1px solid #5477b2;
+    width: 100%;
+    text-align: center;
+  }
+
+  .main-thesis .information {
+    width: 100%;
+  }
+
+  footer {
+    margin-top: 1.5rem;
+    border: none;
+  }
+
+  video {
+    margin: 0;
+    width: 100%;
+  }
+}
